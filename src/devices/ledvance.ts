@@ -1,6 +1,6 @@
-import {Definition} from '../lib/types';
 import {ledvanceLight, ledvanceOnOff} from '../lib/ledvance';
 import {forcePowerSource} from '../lib/modernExtend';
+import {Definition} from '../lib/types';
 
 const definitions: Definition[] = [
     {
@@ -284,7 +284,7 @@ const definitions: Definition[] = [
         extend: [ledvanceLight({})],
     },
     {
-        zigbeeModel: ['Connected Tube Value II'],
+        zigbeeModel: ['Connected Tube Value II', 'TUBE_T8_CON_600_7.5W_840ZBV\u0000'],
         model: 'ST8EM-CON',
         vendor: 'LEDVANCE',
         description: 'SubstiTUBE connected advanced ultra output',
